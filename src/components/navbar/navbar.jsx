@@ -313,8 +313,8 @@ const NavbarMain = () => {
   return (
     <>
       <div className=" max-h-[768px] w-[calc(100%+0px)] flex justify-center bg-[#2c38a3] fixed z-[9999]" >
-        <div className='container max-w-[1317px] relative z-[4444]'>
-        <Navbar className="sticky top-0  h-max max-w-full rounded-none border-none py-1 px-4 lg:px-8 lg:py-2"
+        <div className='container max-w-[1317px] relative z-[8888]'>
+        <Navbar className="sticky top-0  h-max max-w-full rounded-none border-none py-1 px-4 lg:px-8 lg:py-2 z-[999]"
         >
           <div className="flex items-center justify-between text-blue-gray-900">
            <img className='h-8' src={Img} alt='abc' />
