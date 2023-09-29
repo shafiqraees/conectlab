@@ -28,15 +28,27 @@ import Img26 from '../../assets/26.png'
 import Img27 from '../../assets/27.png'
 import Img28 from '../../assets/28.png'
 import Img29 from '../../assets/29.png'
-
-import { Tooltip } from "@material-tailwind/react";
+import Img30 from '../../assets/30.png'
+import Img31 from '../../assets/31.png'
+import Img32 from '../../assets/32.png'
+import Img33 from '../../assets/33.png'
+import Img34 from '../../assets/3.png'
+import Img35 from '../../assets/34.png'
+import Img36 from '../../assets/35.png'
+import Img37 from '../../assets/36.png'
+import Img38 from '../../assets/37.png'
+import Img39 from '../../assets/38.png'
+import Img40 from '../../assets/39.png'
+import Img41 from '../../assets/40.png'
+import Img42 from '../../assets/41.png'
+import { Button, Tooltip } from "@material-tailwind/react";
 const AgileDevelopment = () => {
     const gradiant = {
         background: 'linear-gradient(180deg,rgba(220,230,250,.979),#d0ebff 33%,#cde5f9 74%,#c5d8fe)'
     }
     return (
         <>
-            <div className=" md:h-[1600px] h-[2900px] " style={gradiant}>
+            <div className=" md:h-full h-full " style={gradiant}>
                 <div className='relative'>
                     <div className='absolute right-[0]'>
                         <img src={Img} alt="circle" />
@@ -422,7 +434,7 @@ const AgileDevelopment = () => {
                                         <div >
                                             <div className='border-x-2 border-b-2 right-[80px] absolute border-[#a0b1c6] text-[black] md:h-[210px] lg:h-[210px] h-[180px] top-[100px] z-[1]  lg:w-[220px] md:w-[220px] w-[225px] border-dashed rounded-l-[25px] rounded-r-[25px]'>
                                             </div>
-                                            <div className='border-l-2  right-[180px] absolute border-[#a0b1c6] text-[black] h-[160px] md:top-[310px] lg:top-[310px] top-[280px] z-[1]  border-dashed '>
+                                            <div className='border-l-2  right-[180px] absolute border-[#a0b1c6] text-[black] h-[190px] md:top-[310px] lg:top-[310px] top-[280px] z-[1]  border-dashed '>
                                             </div>
                                         </div>
                                     </div>
@@ -430,7 +442,7 @@ const AgileDevelopment = () => {
                                 <div className='block md:h-[250px] lg:h-[250px] h-[220px]'>
                                 </div>
                                 <div className='flex justify-center ml-6'>
-                                    <div className='mt-4'>
+                                    <div className='mt-12'>
                                         <h1 className='text-center text-[#5577c6] font-bold'>Hybrid Apps Tech Stack</h1>
                                         <ul className='rounded-lg mt-2 border border-[#a0b1c6]  cursor-pointer transform  transition duration-500 hover:scale-90 hover:shadow-xl hover:shadow-indigo-500/40 ease-out'>
                                             <Tooltip
@@ -473,9 +485,235 @@ const AgileDevelopment = () => {
                                         </ul>
                                     </div>
                                 </div>
+
+
+                            </div>
+                        </div>
+                        <div className='relative'>
+                            <div className='flex justify-center' >
+                                <div className='border-x-2 border-b-2 hidden md:block  absolute border-[#a0b1c6] text-[black] md:h-[150px] lg:h-[150px] h-[110px]  lg:w-[860px] md:w-[860px] w-[225px] border-dashed rounded-bl-[25px] rounded-br-[25px] left-[148px]'>
+                                </div>
+                                {/* <div className='border-l-2   absolute border-[#a0b1c6] text-[black] h-[190px] md:top-[310px] lg:top-[150px] top-[80px] z-[1]  border-dashed right-[55%]'>
+                                            </div> */}
+                                <div className='relative'>
+                                    <img className=' md:w-[1000px] lg:w-[1000px] w-full md:mt-16 lg:mt-16 mt-32 relative' src={Img30} alt="laravel" />
+                                    <span className='absolute z-[4444] bg-[#cae0fa] p-2 top-[45px] right-[110px] md:top-[113px] lg:top-[113px] md:right-[348px] lg:right-[348px] font-bold text-[#312852] text-[1.5rem] leading-tight '
+                                    >Automation <br></br> Testing
+                                    </span>
+                                    <div className='flex justify-center absolute md:top-[223px] lg:top-[223px]  left-[70px] md:left-[0px]'>
+                                        <div className=''>
+                                            <ul className='rounded-lg mt-2 border border-[#a0b1c6]  cursor-pointer transform  transition duration-500 hover:scale-90 hover:shadow-xl hover:shadow-indigo-500/40 ease-out'>
+                                                <Tooltip
+                                                    content={
+                                                        <div className='bg-[#7957d5] p-2 '>
+                                                            <p className='text-xs font-semibold'>
+                                                                Next-gen browser and <br></br> mobile automation test <br></br> framework for Node.js</p>
+                                                        </div>
+                                                    }
+                                                    placement="left">
+                                                    <li className=' pr-[59px] py-[15px] pl-[29px]  py-3 rounded-tl-lg rounded-tr-lg border bg-[#dfeffc] hover:bg-[#f8fcff] border-b-[#d8d9fb] border flex gap-4 items-center text-[16px] text-[#2E6AD6] font-semibold '>
+                                                        <img className='h-[25px] w-[25px]' src={Img31} alt="laravel" />
+                                                        WebDriverIO</li>
+                                                </Tooltip>
+                                                <Tooltip
+                                                    content={
+                                                        <div className='bg-[#7957d5] p-2'>
+                                                            <p className='text-xs font-semibold'>
+                                                                End-to-end automated <br></br> software testing.</p>
+                                                        </div>
+                                                    }
+                                                    placement="left">
+                                                    <li className=' pr-[59px] py-[15px] pl-[29px]  py-3 rounded-bl-lg rounded-br-lg  border bg-[#dfeffc] hover:bg-[#f8fcff] border-b-[#d8d9fb] border flex gap-4 items-center text-[16px] text-[#2E6AD6] font-semibold '>
+                                                        <img className='h-[25px] w-[25px]' src={Img32} alt="laravel" />
+                                                        NightWatch.js</li>
+                                                </Tooltip>
+                                                <Tooltip
+                                                    content={
+                                                        <div className='bg-[#7957d5] p-2'>
+                                                            <p className='text-xs font-semibold'>
+                                                                Laravel Dusk provides <br></br> simple end-to-end <br></br> testing and browser<br></br> automation.</p>
+                                                        </div>
+                                                    }
+                                                    placement="left">
+                                                    <li className=' pr-[59px] py-[15px] pl-[29px]  py-3 rounded-bl-lg rounded-br-lg  border bg-[#dfeffc] hover:bg-[#f8fcff] border-b-[#d8d9fb] border flex gap-4 items-center text-[16px] text-[#2E6AD6] font-semibold '>
+                                                        <img className='h-[25px] w-[25px]' src={Img33} alt="laravel" />
+                                                        Laravel Dusk</li>
+                                                </Tooltip>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='flex justify-center relative'>
+                            <img className='h-[25px] w-[25px] absolute md:top-[25px] top-[214px] ' src={Img1} alt="laravel" />
+                            <div className=' border  border-dashed border-[#a0b1c6] w-[1px] h-[65px] mt-[194px] md:mt-[0px]'>
+                            </div>
+                        </div>
+                        <div className=''>
+                            <h1 className='text-center font-bold text-[#312852] text-[1.5rem]'>DevOps</h1>
+                            <div className='flex justify-center  mt-4 items-center'>
+                                <div>
+                                    <img className='h-[150px] w-[150px]' src={Img34} alt="laravel" />
+                                    <h1 className='text-[#4963da] font-medium hover:font-bold hover:text-[#5f4ca4] cursor-pointer text-center'>
+                                        GitHub</h1>
+                                </div>
+                                <div className=' border-2  border-dashed border-[#a0b1c6] w-[95px] h-[1px] md:mb-[35px] mb-[70px]'>
+                                </div>
+                                <div>
+                                    <img className='h-[150px] w-[150px]' src={Img35} alt="laravel" />
+                                    <h1 className='text-[#4963da] font-medium hover:font-bold hover:text-[#5f4ca4] cursor-pointer text-center'>
+                                        GitLab</h1>
+                                </div>
+                                <div className=' border-2  border-dashed border-[#a0b1c6] w-[95px] h-[1px] md:mb-[35px] mb-[70px]'>
+                                </div>
+                                <div>
+                                    <img className='h-[150px] w-[150px]' src={Img36} alt="laravel" />
+                                    <h1 className='text-[#4963da] font-medium hover:font-bold hover:text-[#5f4ca4] cursor-pointer text-center'>
+                                        Gitbucket</h1>
+                                </div>
+                            </div>
+                        </div>
+                        {/* Deployement */}
+                        <div className='divs '>
+                            <div className='flex justify-center relative mt-8'>
+                                <img className='h-[25px] w-[25px] absolute top-[25px]' src={Img1} alt="laravel" />
+                                <div className=' border  border-dashed border-[#a0b1c6] w-[1px] h-[65px] mt-[4px]'>
+                                </div>
+                            </div>
+                            <div className='flex justify-end  w-[78%] mt-[-76px]'>
+                                <img className='hidden md:block lg:block ' src={Img40} alt="laravel" />
+                            </div>
+
+                        </div>
+                        <div className='md:mt-6 lg:mt-6 mt-[74px] '>
+                            <h1 className='text-center font-bold text-[#312852] text-[1.5rem]'>Deployment</h1>
+                            <div className='flex justify-center  mt-4 items-center'>
+                                <div>
+                                    <img className='h-[150px] w-[150px]' src={Img37} alt="laravel" />
+                                    <h1 className='text-[#4963da] font-medium hover:font-bold hover:text-[#5f4ca4] cursor-pointer text-center'>
+                                        AWS</h1>
+                                </div>
+                                <div className=' border-2  border-dashed border-[#a0b1c6] w-[95px] h-[1px] md:mb-[35px] mb-[70px]'>
+                                </div>
+                                <div>
+                                    <img className='h-[150px] w-[150px] mt-6 md:mt-0' src={Img38} alt="laravel" />
+                                    <h1 className='text-[#4963da] font-medium hover:font-bold hover:text-[#5f4ca4] cursor-pointer text-center'>
+                                        Google Cloud</h1>
+                                </div>
+                                <div className=' border-2  border-dashed border-[#a0b1c6] w-[95px] h-[1px]  md:mb-[35px] mb-[70px]'>
+                                </div>
+                                <div>
+                                    <img className='h-[150px] w-[150px] mt-12 md:mt-0' src={Img39} alt="laravel" />
+                                    <h1 className='text-[#4963da] font-medium hover:font-bold hover:text-[#5f4ca4] cursor-pointer text-center'>
+                                        Other Cloud Services</h1>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        {/* WEB Solution and Mobile Solution */}
+                        <div className='flex justify-center relative mt-8'>
+                            <div className=' border  border-dashed border-[#a0b1c6] w-[1px] h-[65px]'>
+                            </div>
+                            <div className='border-x-2 border-t-2  absolute border-[#a0b1c6] top-[64px] text-[black] md:h-[100px] lg:h-[100px] h-[100px]  lg:w-[590px] md:w-[590px] w-[225px] border-dashed rounded-tl-[25px] rounded-tr-[25px] '>
                             </div>
                         </div>
                     </div>
+
+
+                </div>
+                <div className='image'>
+                    <div className='relative'>
+                        <img className='absolute top-[145px] md:top-[0px]' src={Img27} alt="" />
+                    </div>
+                    <div className="flex justify-center">
+                        <div className='container max-w-[1317px]'>
+                            <div className='grid grid-cols-2 gap-4 px-4'>
+                                <div className='column-1 md:ml-12 ml-0'>
+                                    <div className='flex justify-center mt-[76px] '>
+                                        <div>
+                                            <h1 className='text-center font-bold text-[#312852] md:text-[1.5rem] text-base mt-2'>
+                                                Web Solutions
+                                            </h1>
+                                            <ul className='rounded-lg mt-2 border border-[#a0b1c6]  cursor-pointer transform  transition duration-500 hover:scale-90 hover:shadow-xl hover:shadow-indigo-500/40 ease-out'>
+                                                <li className=' md:pr-[59px] md:py-[15px] md:pl-[29px]  py-3 rounded-tl-lg rounded-tr-lg border bg-[#dfeffc] hover:bg-[#f8fcff] border-b-[#d8d9fb] border flex gap-4 items-center text-[16px] text-[#2E6AD6] font-semibold '>
+                                                    <img className='h-[25px] w-[25px]' src={Img42} alt="laravel" />
+                                                    Saas Products</li>
+                                                <li className=' md:pr-[59px] md:py-[15px] md:pl-[29px]  py-3 rounded-bl-lg rounded-br-lg  border bg-[#dfeffc] hover:bg-[#f8fcff] border-b-[#d8d9fb] border flex gap-4 items-center text-[16px] text-[#2E6AD6] font-semibold '>
+                                                    <img className='h-[25px] w-[25px]' src={Img42} alt="laravel" />
+                                                    eCommerce</li>
+
+                                                <li className=' md:pr-[59px] md:py-[15px] md:pl-[29px]  py-3 rounded-bl-lg rounded-br-lg  border bg-[#dfeffc] hover:bg-[#f8fcff] border-b-[#d8d9fb] border flex gap-4 items-center text-[16px] text-[#2E6AD6] font-semibold '>
+                                                    <img className='h-[25px] w-[25px]' src={Img42} alt="laravel" />
+                                                    MVP Development</li>
+                                                <li className=' md:pr-[59px] md:py-[15px] md:pl-[29px]  py-3 rounded-bl-lg rounded-br-lg  border bg-[#dfeffc] hover:bg-[#f8fcff] border-b-[#d8d9fb] border flex gap-4 items-center text-[16px] text-[#2E6AD6] font-semibold '>
+                                                    <img className='h-[25px] w-[25px]' src={Img42} alt="laravel" />
+                                                    API Development</li>
+                                                <li className=' md:pr-[59px] md:py-[15px] md:pl-[29px]  py-3 rounded-bl-lg rounded-br-lg  border bg-[#dfeffc] hover:bg-[#f8fcff] border-b-[#d8d9fb] border flex gap-4 items-center text-[16px] text-[#2E6AD6] font-semibold '>
+                                                    <img className='h-[25px] w-[25px]' src={Img42} alt="laravel" />
+                                                    Custome CMS</li>
+                                                <li className=' md:pr-[59px] md:py-[15px] md:pl-[29px]  py-3 rounded-bl-lg rounded-br-lg  border bg-[#dfeffc] hover:bg-[#f8fcff] border-b-[#d8d9fb] border flex gap-4 items-center text-[16px] text-[#2E6AD6] font-semibold '>
+                                                    <img className='h-[25px] w-[25px]' src={Img42} alt="laravel" />
+                                                    Web Apps</li>
+                                                <li className=' md:pr-[59px] md:py-[15px] md:pl-[29px]  py-3 rounded-bl-lg rounded-br-lg  border bg-[#dfeffc] hover:bg-[#f8fcff] border-b-[#d8d9fb] border flex gap-4 items-center text-[16px] text-[#2E6AD6] font-semibold '>
+                                                    <img className='h-[25px] w-[25px]' src={Img42} alt="laravel" />
+                                                    eLearning (LMS)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div className='relative hidden md:block'>
+                                        <img className="absolute left-[65px] top-[-129px]" src={Img41} alt='bottle' />
+                                    </div>
+                                </div>
+                                <div className='column-2 md:mr-8 mr-0'>
+                                    <div className='flex justify-center mt-[76px] '>
+                                        <div>
+                                            <h1 className='text-center font-bold text-[#312852] md:text-[1.5rem] text-base mt-2'>
+                                                Mobile Solutions
+                                            </h1>
+                                            <ul className='rounded-lg mt-2 border border-[#a0b1c6]  cursor-pointer transform  transition duration-500 hover:scale-90 hover:shadow-xl hover:shadow-indigo-500/40 ease-out'>
+                                                <li className=' md:pr-[59px] md:py-[15px] md:pl-[29px] py-3 rounded-tl-lg rounded-tr-lg border bg-[#dfeffc] hover:bg-[#f8fcff] border-b-[#d8d9fb] border flex gap-4 items-center text-[16px] text-[#2E6AD6] font-semibold '>
+                                                    <img className='h-[25px] w-[25px]' src={Img42} alt="laravel" />
+                                                    Real Time Apps</li>
+                                                <li className=' md:pr-[59px] md:py-[15px] md:pl-[29px] py-3 rounded-bl-lg rounded-br-lg  border bg-[#dfeffc] hover:bg-[#f8fcff] border-b-[#d8d9fb] border flex gap-4 items-center text-[16px] text-[#2E6AD6] font-semibold '>
+                                                    <img className='h-[25px] w-[25px]' src={Img42} alt="laravel" />
+                                                    Financial Apps</li>
+
+                                                <li className=' md:pr-[59px] md:py-[15px] md:pl-[29px] py-3 rounded-bl-lg rounded-br-lg  border bg-[#dfeffc] hover:bg-[#f8fcff] border-b-[#d8d9fb] border flex gap-4 items-center text-[16px] text-[#2E6AD6] font-semibold '>
+                                                    <img className='h-[25px] w-[25px]' src={Img42} alt="laravel" />
+                                                    eCommerce Apps</li>
+                                                <li className=' md:pr-[59px] md:py-[15px] md:pl-[29px] py-3 rounded-bl-lg rounded-br-lg  border bg-[#dfeffc] hover:bg-[#f8fcff] border-b-[#d8d9fb] border flex gap-4 items-center text-[16px] text-[#2E6AD6] font-semibold '>
+                                                    <img className='h-[25px] w-[25px]' src={Img42} alt="laravel" />
+                                                    Chat & Video Apps</li>
+                                                <li className=' md:pr-[59px] md:py-[15px] md:pl-[29px] py-3 rounded-bl-lg rounded-br-lg  border bg-[#dfeffc] hover:bg-[#f8fcff] border-b-[#d8d9fb] border flex gap-4 items-center text-[16px] text-[#2E6AD6] font-semibold '>
+                                                    <img className='h-[25px] w-[25px]' src={Img42} alt="laravel" />
+                                                    Utility Apps</li>
+                                                <li className=' md:pr-[59px] md:py-[15px] md:pl-[29px] py-3 rounded-bl-lg rounded-br-lg  border bg-[#dfeffc] hover:bg-[#f8fcff] border-b-[#d8d9fb] border flex gap-4 items-center text-[16px] text-[#2E6AD6] font-semibold '>
+                                                    <img className='h-[25px] w-[25px]' src={Img42} alt="laravel" />
+                                                    Productivity Apps</li>
+                                                <li className=' md:pr-[59px] md:py-[15px] md:pl-[29px]  py-3 rounded-bl-lg rounded-br-lg  border bg-[#dfeffc] hover:bg-[#f8fcff] border-b-[#d8d9fb] border flex gap-4 items-center text-[16px] text-[#2E6AD6] font-semibold '>
+                                                    <img className='h-[25px] w-[25px]' src={Img42} alt="laravel" />
+                                                    Streaming Apps</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div className='relative hidden md:block'>
+                                        <img className="absolute left-[65px] top-[-129px]" src={Img41} alt='bottle' />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='flex justify-center mt-8 pb-12'>
+                                <Button
+                                    className='p-1.5 text-base text-[white] border-[#7957d5] border rounded hover:border-[white] bg-gradient-hover'
+                                    variant="outlined">
+                                    Click to See Less
+                                </Button>
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
         </>
