@@ -1,0 +1,13 @@
+button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+    background-color: black;
+    opacity: 0.5;
+}
+.react-multiple-carousel__arrow::before {
+    
+    color: white!important;
+   
+}
+button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
+    background-color: black;
+    opacity: 0.5;
+}
